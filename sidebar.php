@@ -1,4 +1,4 @@
-		<div class="col-md-3"><!--sidebar-->
+<div class="col-md-3"><!--sidebar-->
 				<div class="title-bg">
 					<div class="title">Categories</div>
 				</div>

@@ -1,5 +1,5 @@
 
-	<div class="f-widget"><!--footer Widget-->
+<div class="f-widget"><!--footer Widget-->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4"><!--footer twitter widget-->
@@ -39,8 +39,8 @@
 						<div class="title-widget-cursive">Shopping</div>
 					</div>
 					<ul class="contact-widget">
-						<li class="fphone"><?php echo $ayarcek['ayar_tel']; ?> </li>
-						<li class="fmobile"><?php echo $ayarcek['ayar_gsm']; ?></li>
+						<li class="fphone"><?php echo $ayarcek['ayar_tel']; ?> <br> <?php echo $ayarcek['ayar_faks']; ?></li>
+						<li class="fmobile"><?php echo $ayarcek['ayar_gsm']; ?><br><?php echo $ayarcek['ayar_gsm']; ?></li>
 						<li class="fmail lastone"><?php echo $ayarcek['ayar_mail']; ?></li>
 					</ul>
 				</div><!--footer contact widget-->
@@ -59,7 +59,7 @@
 						<li><a href="order.htm">Completed Orders</a></li>
 						<li><a href="contact.htm">Contact us</a></li>
 					</ul><!--footer nav-->
-					<div class="f-credit">&copy;All rights reserved by <a href="#"><?php echo $ayarcek['ayar_author'] ?></a></div>
+					<div class="f-credit">&copy;<?php echo $ayarcek['ayar_author'] ?> <a href="http://222.joyakademi.com">www.joyakademi.com</a></div>
 					<a href=""><div class="payment visa"></div></a>
 					<a href=""><div class="payment paypal"></div></a>
 					<a href=""><div class="payment mc"></div></a>
@@ -68,10 +68,15 @@
 				<div class="col-md-3"><!--footer Share-->
 					<div class="followon">Follow us on</div>
 					<div class="fsoc">
+						
 						<a href="http://<?php echo $ayarcek['ayar_twitter']; ?>" class="ftwitter">twitter</a>
+						
 						<a href="http://<?php echo $ayarcek['ayar_facebook']; ?>" class="ffacebook">facebook</a>
-						<a href="http://<?php echo $ayarcek['ayar_google']; ?>" class="fflickr">google</a>
-						<a href="http://<?php echo $ayarcek['ayar_youtube']; ?>" class="ffeed">youtube</a>
+						
+						<a href="http://<?php echo $ayarcek['ayar_youtube']; ?>" class="fflickr">Youtube</a>
+						
+						<a href="http://<?php echo $ayarcek['ayar_google']; ?>" class="ffeed">Google</a>
+
 						<div class="clearfix"></div>
 					</div>
 					<div class="clearfix"></div>

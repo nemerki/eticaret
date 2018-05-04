@@ -1,4 +1,6 @@
-﻿<?php include 'header.php'; ?>
+﻿<?php 
+include 'header.php'; 
+?>
 
 	<div class="container">
 		<ul class="small-menu"><!--small-nav -->
@@ -391,4 +393,5 @@
 			</div><!--sidebar-->
 		</div>
 	</div>
-	<?php include 'footer.php' ?>
+	
+	<?php include 'footer.php'; ?>
